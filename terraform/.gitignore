@@ -1,0 +1,5 @@
+.terraform/
+*.tfplan
+id_rsa
+*.tfstate
+*.tfstate.backup
