@@ -11,6 +11,9 @@ sudo update-alternatives --set editor /usr/bin/vim.basic
 git config --global user.name "Kitsuya0828"
 git config --global user.email kitsuyaazuma@gmail.com
 
+# c
+sudo apt install gcc
+
 # go
 sudo apt-get install -y wget
 wget https://go.dev/dl/go1.20.3.linux-amd64.tar.gz
