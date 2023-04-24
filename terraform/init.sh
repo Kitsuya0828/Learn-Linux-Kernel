@@ -14,6 +14,10 @@ git config --global user.email kitsuyaazuma@gmail.com
 # c
 sudo apt install gcc
 
+# python
+sudo apt install python3-pip
+pip install numpy Pillow matplotlib
+
 # go
 sudo apt-get install -y wget
 wget https://go.dev/dl/go1.20.3.linux-amd64.tar.gz
