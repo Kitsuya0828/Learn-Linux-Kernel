@@ -11,6 +11,10 @@ sudo update-alternatives --set editor /usr/bin/vim.basic
 git config --global user.name "Kitsuya0828"
 git config --global user.email kitsuyaazuma@gmail.com
 
+# font
+sudo apt install fontconfig
+sudo apt install 'fonts-takao-*'
+
 # c
 sudo apt install gcc
 

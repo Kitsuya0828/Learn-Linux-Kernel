@@ -9,7 +9,7 @@ matplotlib.use('Agg')
 
 import matplotlib.pyplot as plt
 
-plt.rcParams['font.family'] = "sans-serif"
+plt.rcParams['font.family'] = "DejaVu Sans"
 plt.rcParams['font.sans-serif'] = "TakaoPGothic"
 
 def plot_sched(concurrency):
