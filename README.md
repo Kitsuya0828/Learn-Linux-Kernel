@@ -22,7 +22,7 @@ terraform plan -out main.tfplan
 terraform apply main.tfplan
 
 terraform output -raw tls_private_key > id_rsa
-terraform output public_ip_address
+terraform output public_ip_address | sed -e 's/"//g' | pbcopy
 
 eval `ssh-agent`
 ssh-add
