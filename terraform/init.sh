@@ -15,6 +15,9 @@ git config --global user.email kitsuyaazuma@gmail.com
 sudo apt install -y fontconfig
 sudo apt install -y 'fonts-takao-*'
 
+# fio
+sudo apt install -y fio
+
 # c
 sudo apt install -y gcc
 
